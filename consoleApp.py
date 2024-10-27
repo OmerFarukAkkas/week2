@@ -11,3 +11,16 @@ print(student2)
 print(student3)
 print(student4)
 print(student5)
+
+numaralar = [student1['numara'] , student2['numara'] , student3['numara'] , student4['numara'] , student5['numara']]
+
+cift=[]
+tek=[]
+
+for x in numaralar : 
+    if x%2==0:
+        cift.append(x)
+    else:
+        tek.append(x)
+
+print(f"tek numaralar :{tek}" , f"cift numaralar: {cift}")
