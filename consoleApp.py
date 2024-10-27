@@ -12,6 +12,8 @@ print(student3)
 print(student4)
 print(student5)
 
+list=[student1 , student2 , student3 , student4 , student5]
+
 numaralar = [student1['numara'] , student2['numara'] , student3['numara'] , student4['numara'] , student5['numara']]
 
 cift=[]
@@ -24,3 +26,13 @@ for x in numaralar :
         tek.append(x)
 
 print(f"tek numaralar :{tek}" , f"cift numaralar: {cift}")
+
+if student1['sinif']==4 or student2['sinif']==4 or student3['sinif']==4 or student4['sinif']==4 or student5['sinif']==4:
+    print(True)
+
+
+
+
+
+
+    
